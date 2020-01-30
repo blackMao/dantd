@@ -1,6 +1,6 @@
 {
   "name": "dantd",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "react components by antdv3",
   "author": "joking_zhang <496691544@qq.com> (jokingzhang.com)",
   "license": "MIT",
@@ -8,27 +8,27 @@
   "module": "es/index.js",
   "typings": "lib/index.d.ts",
   "files": [
-      "dist",
-      "lib",
-      "es"
+    "dist",
+    "lib",
+    "es"
   ],
   "keywords": [
-      "ant-design",
-      "component",
-      "components",
-      "framework",
-      "frontend",
-      "react",
-      "react-component",
-      "ui"
+    "ant-design",
+    "component",
+    "components",
+    "framework",
+    "frontend",
+    "react",
+    "react-component",
+    "ui"
   ],
   "repository": {
-      "type": "git",
-      "url": "https://github.com/jokingzhang/dantd"
+    "type": "git",
+    "url": "https://github.com/jokingzhang/dantd"
   },
   "engines": {
-      "node": ">=8",
-      "npm": ">=5"
+    "node": ">=8",
+    "npm": ">=5"
   },
   "scripts": {
     "start": "PORT=3033 react-app-rewired start",
