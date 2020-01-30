@@ -18,20 +18,7 @@ export default
     entry: 'src/index.tsx',
     lessInBabelMode: true,
     doc: {
-      // repository: false,
-      themeConfig: {
-        // mode: 'dark',
-        // showPlaygroundEditor: false
-      },
       base: '/dantd/',
-    //   public: '/public',
-      htmlContext: {
-        head: {
-          links: [
-            { rel: 'stylesheet', href: '/public/common.css' },
-          ],
-        },
-      },
       menu: [
         '首页',
         '更新日志',
