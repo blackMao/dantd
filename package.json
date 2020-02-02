@@ -22,9 +22,13 @@
     "react-component",
     "ui"
   ],
+  "homepage": "https://jokingzhang.github.io/dantd",
   "repository": {
     "type": "git",
     "url": "https://github.com/jokingzhang/dantd"
+  },
+  "bugs": {
+    "url": "https://github.com/jokingzhang/dantd/issues"
   },
   "engines": {
     "node": ">=8",

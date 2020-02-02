@@ -2,7 +2,21 @@
 
 [预览地址](https://jokingzhang.github.io/dantd/)
 
-> 一个基于 [Antd-v3](https://github.com/ant-design/ant-design/) 所封装的业务组件库
+<div align="center">
+
+一个基于 [Antd-v3](https://github.com/ant-design/ant-design/) 所封装的业务组件库
+
+<a href="https://www.npmjs.com/package/dantd">
+  <img src="https://img.shields.io/npm/v/dantd" alt="npm package" />
+</a>
+<a href="https://www.npmjs.com/package/dantd">
+  <img src="https://img.shields.io/bundlephobia/min/dantd" alt="npm size" />
+</a>
+<a href="https://www.npmjs.com/package/dantd">
+  <img src="https://img.shields.io/npm/l/dantd" alt="license" />
+</a>
+
+</div>
 
 # Features
 
@@ -57,3 +71,7 @@ $ npm publish
 - [手摸手，打造属于自己的 React 组件库 —— 基础篇](https://github.com/jokingzhang/blog/issues/1)
 - [手摸手，打造属于自己的 React 组件库 —— 测试篇](https://github.com/jokingzhang/blog/issues/4)
 - [手摸手，打造属于自己的 React 组件库 —— 打包篇](https://github.com/jokingzhang/blog/issues/2)
+
+# License
+
+MIT
