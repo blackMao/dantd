@@ -1,6 +1,8 @@
 # dantd
 
-[预览地址](http://10.160.121.72:8080/)
+> 这只是一个 Demo 项目，目前已经停止维护，仅供学习组件打包使用
+
+[预览地址](https://jokingzhang.github.io/dantd/)
 
 一个基于 [Antd-v3](https://github.com/ant-design/ant-design/) 所封装的业务组件库
 
@@ -113,8 +115,6 @@ $ npm run lib:build
 添加完文件之后，在 `entry/config.tsx` 中增加 `demo` 的配置。
 此时应该可以看到组件，并继续开发了。
 
-更多请参考：[手摸手，打造属于自己的 React 组件库 —— 基础篇](http://way.xiaojukeji.com/article/20141)
-
 ### 测试
 测试文件需要保持 `.test.tsx` 的后缀。
 相关技术栈以及文档：
@@ -122,23 +122,17 @@ $ npm run lib:build
 - [@testing-library/react](https://testing-library.com/docs/react-testing-library/intro)：将 React 组件转化成 Dom 节点来测试，而不是渲染的 React 组件的实例，可以当做是 [Enzyme](http://airbnb.io/enzyme/) 的替代。
 编写测试脚本，并保证希望测试到的地方已经覆盖。
 
-更多请参考：[手摸手，打造属于自己的 React 组件库 —— 测试篇](http://way.xiaojukeji.com/article/20144)
-
 ### 发布
 
-如果没有安装过 `dnpm`，需要先安装一下：
-```
-$ npm install -g dnpm --registry=http://registry.npm.xiaojukeji.com
-```
 
-登录 `dnpm` 账号，提交所有代码
+登录 `npm` 账号，提交所有代码
 
 ```
 $ npm run lib:build
-$ dnpm login
+$ npm login
 $ npm version patch
 $ git push
-$ dnpm publish
+$ npm publish
 ```
 
 # 文档
@@ -152,9 +146,11 @@ npm run doc:start
 ```
 npm run doc:build
 ```
-### 上传文档
-添加文件，提交代码至 `master` 分支，
-查看流水线 [OE](http://eng.xiaojukeji.com/group/38581/service/23470/pipeline)，并触发 `Odin` 部署。
+### 发布文档
+```
+npm run doc:deploy
+```
+
 
 # blog
 

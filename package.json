@@ -37,7 +37,8 @@
     "start": "PORT=3066 react-app-rewired start",
     "test": "jest --no-cache",
     "doc:start": "father doc dev -p 3022",
-    "doc:build": "father doc build && rm -rf doc && mv .doc doc",
+    "doc:build": "father doc build",
+    "doc:deploy": "father doc deploy",
     "lib:build": "rm -rf dist/ es/ lib/ && node ./scripts/renameStart.js && father build && node ./scripts/moveDeclare.js && node ./scripts/changeLess2Css.js && node ./scripts/renameEnd.js"
   },
   "eslintConfig": {
