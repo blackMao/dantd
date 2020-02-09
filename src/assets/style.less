@@ -1,0 +1,60 @@
+@import '~antd/dist/antd.less';
+@import './customer/antd-variables.less';
+
+.App {
+  &-content {
+    margin: 24px 16px;
+    padding: 24;
+    background: #fff;
+    min-height: calc(100vh - 112px);
+  }
+
+  .trigger {
+    font-size: 18px;
+    line-height: 64px;
+    padding: 0 24px;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+
+  .trigger:hover {
+    color: #1890ff;
+  }
+
+  .logo-wrapper {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    .logo {
+      height: 32px;
+      width: 42px;
+      background-image: url("./logo.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      margin: 16px;
+      margin-right: 0;
+    }
+    h3 {
+      overflow: hidden;
+      margin-bottom: 0;
+      font-size: 14px;
+      opacity: 1;
+      transition: all 1s;
+    }
+  }
+
+  .ant-layout-sider-collapsed {
+    .logo {
+      margin: 16px 20px;
+      margin-right: 0;
+    }
+    .logo-wrapper {
+      h3 {
+        opacity: 0;
+        visibility: hidden;
+        display: none;
+      }
+    }
+  }
+}

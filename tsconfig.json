@@ -17,7 +17,7 @@
     "noEmit": true,
     "jsx": "preserve",
     "sourceMap": true,
-    "baseUrl": "./",
+    "baseUrl": "./src",
     "allowSyntheticDefaultImports": true,
     "moduleResolution": "node"
   },
@@ -26,6 +26,5 @@
   ],
   "include": [
     "src",
-    "entry",
   ]
 }

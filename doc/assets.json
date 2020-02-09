@@ -1,0 +1,14 @@
+{
+  "vendors.css": "/static/css/vendors.581e788de9692049ec7f.css",
+  "vendors.js": "/static/js/vendors.bf2de0cc.js",
+  "app.js": "/static/js/app.581e788de9692049ec7f.js",
+  "document-change-log.js": "/static/js/document-change-log.cae54905.js",
+  "document-home.js": "/static/js/document-home.32b025ae.js",
+  "src-card-index.css": "/static/css/src-card-index.581e788de9692049ec7f.css",
+  "src-card-index.js": "/static/js/src-card-index.878b929e.js",
+  "src-descriptions-index.css": "/static/css/src-descriptions-index.581e788de9692049ec7f.css",
+  "src-descriptions-index.js": "/static/js/src-descriptions-index.2339d9eb.js",
+  "src-empty-line-index.css": "/static/css/src-empty-line-index.581e788de9692049ec7f.css",
+  "src-empty-line-index.js": "/static/js/src-empty-line-index.19d8acba.js",
+  "index.html": "/index.html"
+}

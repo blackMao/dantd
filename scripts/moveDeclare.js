@@ -2,14 +2,14 @@ const path = require('path');
 const klawSync = require('klaw-sync');
 const fs = require('fs');
 
-const declarePaths = klawSync(path.resolve(__dirname, '../dist/src'), {
+const declarePaths = klawSync(path.resolve(__dirname, '../dist'), {
   nodir: true,
 });
 
 declarePaths.forEach(pathItem => {
-  if (fs.existsSync(pathItem.path)) {
-    const esPath = pathItem.path.replace('/dist/src', '/es');
-    const libPath = pathItem.path.replace('/dist/src', '/lib');
+  if (fs.existsSync(pathItem.path) && pathItem.path.indexOf('index.umd') < 0) {
+    const esPath = pathItem.path.replace('/dist', '/es');
+    const libPath = pathItem.path.replace('/dist', '/lib');
     fs.copyFileSync(pathItem.path, esPath);
     fs.copyFileSync(pathItem.path, libPath);
   }
